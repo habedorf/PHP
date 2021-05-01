@@ -4,3 +4,6 @@
   $this_month=1089.98 ;
   
   echo $last_month - $this_month;
+
+echo 2 * 3; // Prints: 6
+echo -21 / 7; // Prints: -3
