@@ -1,0 +1,9 @@
+<?php
+// Write your code below:
+$name = "robin";
+$language = "Javascript";
+
+echo "My name is ".$name;
+echo"\nI learn ".$language;
+  
+  
