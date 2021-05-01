@@ -17,3 +17,16 @@ echo -21 / 7; // Prints: -3
   
 
 echo $days_per_language;
+
+echo 8**2;
+
+echo 82%6;
+
+/*Operations will be evaluated in the following order:
+
+    Any operation wrapped in parentheses (())
+    Exponents (**)
+    Multiplication (*) and division (/)
+    Addition (+) and subtraction (-).
+
+*/
