@@ -1,0 +1,4 @@
+<?php
+echo "1. Teach PHP";
+echo "\n2. learn React!";
+echo "\n3. Learn to have \"fun\"";
