@@ -1,0 +1,7 @@
+<?php
+
+function inflateEgo(){
+  echo "you are cool!";
+}
+
+inflateEgo();
