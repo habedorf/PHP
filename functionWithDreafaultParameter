@@ -1,0 +1,9 @@
+<?php
+
+function calculateTip($total,$tip = 20){
+return $total * (1 + ($tip /100));
+}
+
+echo calculateTip(100, 25);
+
+echo calculateTip(100);
