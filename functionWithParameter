@@ -1,0 +1,13 @@
+<?php
+// Write your code below:
+function increaseEnthusiasm($string){
+return $string."!";
+}
+
+echo increaseEnthusiasm("test");
+
+function repeatThreeTimes($string){
+ return $string.$string.$string;
+}
+
+echo repeatThreeTimes("hu");
