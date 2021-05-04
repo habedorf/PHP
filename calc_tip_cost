@@ -1,0 +1,19 @@
+<?php
+namespace Codecademy;
+
+// Write your code below:
+
+function calculateDistance($num1,$num2){
+$diff = abs($num1-$num2);
+return $diff;
+}
+
+echo calculateDistance(-1,99);
+echo "\n";
+
+function calculateTip($cost){
+$tip = round($cost * 1.18);
+return $tip;
+}
+
+echo calculateTip(100);
