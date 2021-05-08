@@ -1,0 +1,24 @@
+<?php
+namespace Codecademy;
+function whatRelation ($percentSharedDNA)
+{
+ if ($percentSharedDNA === 100){
+   echo "identical twins\n";
+ } elseif ($percentSharedDNA > 34){
+   echo "parent and child or full siblings\n";
+ } elseif ($percentSharedDNA > 13){
+   echo "grandparent and grandchild, aunt/uncle and niece/nephew, or half siblings\n";
+ }  elseif ($percentSharedDNA > 5) {
+   echo "first cousins\n";
+ } elseif ($percentSharedDNA > 2){
+   echo "second cousins\n";
+ } elseif ($percentSharedDNA > 0){
+   echo "third cousins\n";
+ } else {
+   echo "not genetically related\n";
+ }
+}
+
+ECHO whatRelation(1);
+ECHO whatRelation(42);
+ECHO whatRelation(100);
