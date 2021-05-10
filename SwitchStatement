@@ -1,0 +1,19 @@
+switch ($letter_grade){
+  case "A":
+    echo "Terrific";
+    break;
+  case "B":
+    echo "Good";
+    break;
+  case "C":
+    echo "Fair";
+    break;
+  case "D":
+    echo "Needs Improvement";
+    break;
+  case "F":
+    echo "See me!";
+    break;
+  default:
+    echo "Invalid grade"; 
+}
