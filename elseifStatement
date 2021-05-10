@@ -1,0 +1,13 @@
+if ($letter_grade === "A"){
+  echo "Terrific";
+} elseif ($letter_grade === "B") {
+  echo "Good";
+} elseif ($letter_grade === "C") {
+  echo "Fair";
+} elseif ($letter_grade === "D") {
+  echo "Needs Improvement";
+} elseif ($letter_grade === "F") {
+  echo "See me!";
+} else {
+  echo "Invalid grade"; 
+}
