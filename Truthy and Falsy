@@ -1,0 +1,8 @@
+<?php
+namespace Codecademy;
+function truthyOrFalsy($value){
+return $value ? "True\n" : "False\n";
+};
+
+echo truthyOrFalsy("");
+echo truthyOrFalsy("test");
